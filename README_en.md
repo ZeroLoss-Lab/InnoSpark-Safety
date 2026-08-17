@@ -16,7 +16,7 @@ Evaluation sets, model weights, real keyword lists, and other private assets wer
 
 ## Architecture
 
-InnoSpark-HPedSafe follows a three-layer defense design:
+InnoSpark-Safety follows a three-layer defense design:
 
 1. Pre-interception
    Before a user query reaches the model, the system checks placeholder keywords, blacklist rules, a BERT input classifier, and optional RAG relevance signals. The public repository does not include the real keyword tables.
