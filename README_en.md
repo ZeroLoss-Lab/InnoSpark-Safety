@@ -4,7 +4,7 @@ English | [中文](README.md)
 
 InnoSpark-Safety is a multi-layer safety framework for educational large language model applications. It focuses on three critical points in an LLM workflow: user input, model generation, and service integration. The project provides input moderation, model safety alignment code, output auditing, RAG-based intervention, and an OpenAI-compatible vLLM proxy API so educational AI systems can reduce unsafe prompts, inappropriate answers, and out-of-scope content exposure in deployment.
 
-This project was reorganized from [ZeroLoss-Lab/InnoSpark-HPedSafe](https://github.com/ZeroLoss-Lab/InnoSpark-HPedSafe). The main architecture and code were reorganized into a cleaner public layout. Evaluation sets, model weights, real keyword lists, and other private assets were removed; only placeholders remain in this repo. Please email to request the full package after review.
+Evaluation sets, model weights, real keyword lists, and other private assets were removed; only placeholders remain in this repo. Please email to request the full package after review.
 
 ## Goals
 
