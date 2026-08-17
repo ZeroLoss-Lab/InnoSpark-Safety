@@ -1,0 +1,17 @@
+# 复制此文件为 .env 并修改配置
+
+# vLLM API配置
+VLLM_API_BASE=http://localhost:8000
+VLLM_API_KEY=
+
+# 服务配置
+HOST=0.0.0.0
+PORT=8001
+
+# 日志配置
+LOG_LEVEL=INFO
+LOG_FILE=logs/api.log
+USER_LOG_FILE=logs/user_requests.log
+
+# API认证（可选）
+API_KEY= 

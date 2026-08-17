@@ -1,0 +1,16 @@
+[
+  {
+    "keyword": "placeholder_category_alpha",
+    "sub_keywords": [
+      "placeholder_subterm_alpha",
+      "placeholder_subterm_beta"
+    ]
+  },
+  {
+    "keyword": "placeholder_category_beta",
+    "sub_keywords": [
+      "placeholder_subterm_gamma",
+      "placeholder_subterm_delta"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime output
+logs/
+*.log
+service.log
+conversations_simple.json
+integration_report_*.json
+
+# Local configuration and secrets
+.env
+*.local
+api_keys.json
+
+# Model and vector-store artifacts
+models/
+egs_model/
+storage_*/
+chroma_db/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/

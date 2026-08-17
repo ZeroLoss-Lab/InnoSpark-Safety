@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "role": "user",
+      "content": "Explain photosynthesis in one sentence."
+    },
+    {
+      "role": "assistant",
+      "content": "Photosynthesis lets plants convert light energy into chemical energy."
+    }
+  ],
+  [
+    {
+      "role": "user",
+      "content": "Convert 30 Celsius to Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "30 Celsius is 86 Fahrenheit."
+    }
+  ]
+]
