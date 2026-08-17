@@ -31,8 +31,8 @@ InnoSpark-HPedSafe 采用三层防护思路：
 
 项目 README 中推荐使用以下两个 Hugging Face 模型作为前后拦截参考模型：
 
-- 输入审核模型：[feizexuan/egs-bert-input-moderator](https://huggingface.co/feizexuan/egs-bert-input-moderator)
-- 响应审核模型：[feizexuan/egs-bert-response-auditor](https://huggingface.co/feizexuan/egs-bert-response-auditor)
+- 输入审核模型：[ZeroLoss-Lab/egs-bert-input-moderator · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-input-moderator)
+- 响应审核模型：[ZeroLoss-Lab/egs-bert-response-auditor · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-response-auditor)
 
 可将模型下载到本地目录后，在配置中分别设置为前拦截模型路径和后拦截模型路径。
 
@@ -95,8 +95,8 @@ pip install -r EGS/requirements.txt
 可以使用 Hugging Face CLI 或 Python SDK 下载模型：
 
 ```bash
-huggingface-cli download feizexuan/egs-bert-input-moderator --local-dir models/egs-bert-input-moderator
-huggingface-cli download feizexuan/egs-bert-response-auditor --local-dir models/egs-bert-response-auditor
+huggingface-cli download ZeroLoss-Lab/egs-bert-input-moderator --local-dir models/egs-bert-input-moderator
+huggingface-cli download ZeroLoss-Lab/egs-bert-response-auditor --local-dir models/egs-bert-response-auditor
 ```
 
 ### 4. 运行 EGS 示例

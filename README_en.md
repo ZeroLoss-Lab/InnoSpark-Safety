@@ -31,8 +31,8 @@ InnoSpark-HPedSafe follows a three-layer defense design:
 
 The README references the following Hugging Face models as default guardrail model options:
 
-- Input moderation model: [feizexuan/egs-bert-input-moderator](https://huggingface.co/feizexuan/egs-bert-input-moderator)
-- Response auditing model: [feizexuan/egs-bert-response-auditor](https://huggingface.co/feizexuan/egs-bert-response-auditor)
+- Input moderation model: [ZeroLoss-Lab/egs-bert-input-moderator · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-input-moderator)
+- Response auditing model: [ZeroLoss-Lab/egs-bert-response-auditor · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-response-auditor)
 
 Download the models locally and configure their paths as the front-interception and post-interception model paths.
 
@@ -95,8 +95,8 @@ pip install -r EGS/requirements.txt
 Use the Hugging Face CLI or Python SDK:
 
 ```bash
-huggingface-cli download feizexuan/egs-bert-input-moderator --local-dir models/egs-bert-input-moderator
-huggingface-cli download feizexuan/egs-bert-response-auditor --local-dir models/egs-bert-response-auditor
+huggingface-cli download ZeroLoss-Lab/egs-bert-input-moderator --local-dir models/egs-bert-input-moderator
+huggingface-cli download ZeroLoss-Lab/egs-bert-response-auditor --local-dir models/egs-bert-response-auditor
 ```
 
 ### 4. Run the EGS example
