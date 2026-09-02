@@ -30,6 +30,7 @@ InnoSpark-Safety 采用三层防护思路：
 项目 README 中推荐使用以下两个 Hugging Face 模型作为前后拦截参考模型：
 
 - 输入审核模型：[ZeroLoss-Lab/egs-bert-input-moderator · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-input-moderator)
+- 安全对齐模型：[ZeroLoss-Lab/Innospark-72b-safety · Hugging Face](https://huggingface.co/ZeroLoss-Lab/Innospark-72b-safety)
 - 响应审核模型：[ZeroLoss-Lab/egs-bert-response-auditor · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-response-auditor)
 
 可将模型下载到本地目录后，在配置中分别设置为前拦截模型路径和后拦截模型路径。

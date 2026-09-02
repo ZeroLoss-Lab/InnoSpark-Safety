@@ -32,6 +32,7 @@ InnoSpark-Safety follows a three-layer defense design:
 The README references the following Hugging Face models as default guardrail model options:
 
 - Input moderation model: [ZeroLoss-Lab/egs-bert-input-moderator · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-input-moderator)
+- Safety-aligned LLM: [ZeroLoss-Lab/Innospark-72b-safety · Hugging Face](https://huggingface.co/ZeroLoss-Lab/Innospark-72b-safety)
 - Response auditing model: [ZeroLoss-Lab/egs-bert-response-auditor · Hugging Face](https://huggingface.co/ZeroLoss-Lab/egs-bert-response-auditor)
 
 Download the models locally and configure their paths as the front-interception and post-interception model paths.
