@@ -217,6 +217,24 @@ python server.py
 - 对所有被拦截请求记录必要审计信息，但应避免保存过多原始敏感内容。
 - 安全系统不能替代人工治理；高风险场景仍需人工复核和应急流程。
 
+## 🔬 Citation
+
+If you use this benchmark in your research, please cite:
+
+```bibtex
+@article{luo2026ice,
+  title={ICE: Intrinsic, Co-evolving, and Evolving Safety Alignment for Educational Large Language Models},
+  author={Yiming Luo, Zhengnan Guo, Zexuan Fei, Aimin Zhou, Fei Tan},
+  journal={Tech. Report},
+  year={2026}
+
+@article{fei2026egs,
+  title={EGS: A Complementary Safety Framework for Educational LLMs},
+  author={Zexuan Fei, Zhengnan Guo, Yiming Luo, Kaiyi Huang, Aimin Zhou, Fei Tan},
+  journal={Tech. Report},
+  year={2026}
+```
+
 ## 许可证
 
 `EGS/LICENSE` 使用 Apache-2.0 许可证。其他子模块如无单独声明，建议在正式发布前统一补充根目录许可证与贡献说明。
